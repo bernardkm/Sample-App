@@ -1,0 +1,4 @@
+kentaro:
+  name: Kentaro Murase
+  email: foobar@gmail.com
+  password_digest: <%= User.digest('password') %>
